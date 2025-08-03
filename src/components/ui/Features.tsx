@@ -1,21 +1,22 @@
-import { Zap, Target, BarChart3, Users, Heart, Trophy } from 'lucide-react';
+import { Zap, Target, BarChart3, Users, Heart, Trophy, UserPlus, TrendingUp } from 'lucide-react';
+
 
 const Features = () => {
   const features = [
     {
-      icon: Zap,
-      title: "AI-Powered Workouts",
-      description: "Personalized training plans that adapt to your progress and preferences in real-time."
+      icon: UserPlus,
+      title: "Digital Onboarding",
+      description: "Quick setup for your gym with zero tech headaches."
     },
     {
-      icon: Target,
-      title: "Goal Tracking",
-      description: "Set and achieve your fitness goals with detailed progress tracking and milestones."
+      icon: TrendingUp,
+      title: "Revenue Engine",
+      description: "Tools to boost sales through flexible, dynmaic pricing."
     },
     {
       icon: BarChart3,
-      title: "Advanced Analytics",
-      description: "Comprehensive insights into your performance, calories burned, and improvement trends."
+      title: "Insight Dashboard",
+      description: "Real-time data on users, trends, and peak hours."
     },
     {
       icon: Users,

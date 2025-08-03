@@ -1,5 +1,7 @@
 
-import { Award, Users, Heart, Target } from 'lucide-react';
+import { Percent, DollarSign , Megaphone , BarChart3   } from 'lucide-react';
+
+
 
 import CountUp from "react-countup";
 
@@ -42,37 +44,38 @@ const About = () => {
 
   const values = [
     {
-      icon: <Heart className="w-8 h-8" />,
-      title: "Passion for Health",
-      description: "We believe everyone deserves access to effective, science-based fitness solutions."
+      icon: <Percent className="w-8 h-8" />,
+      title: "Decreasing Commission Model",
+      description: "Grow your revenue as commissions drop from 40% to just 10% the more you earn."
     },
     {
-      icon: <Users className="w-8 h-8" />,
-      title: "Community First",
-      description: "Building supportive communities where everyone can achieve their fitness goals together."
+      icon: <DollarSign  className="w-8 h-8" />,
+      title: "Dynamic Price Allocation",
+      description: "Smart pricing adapts to traffic, weather, and competition to maximize your bookings."
     },
     {
-      icon: <Award className="w-8 h-8" />,
-      title: "Excellence Driven",
-      description: "Committed to delivering the highest quality fitness experiences through innovation."
+      icon: <Megaphone  className="w-8 h-8" />,
+      title: "Zero-Cost Gym Marketing",
+      description: "Expand your reach effortlessly without spending a single rupee on advertising."
     },
     {
-      icon: <Target className="w-8 h-8" />,
-      title: "Results Focused",
-      description: "Every feature we build is designed to help you achieve measurable fitness results."
+      icon: <BarChart3   className="w-8 h-8" />,
+      title: "Real-Time Gym Dashboard",
+      description: "Monitor activity, predict peak hours, and make informed decisions instantly."
     }
   ];
+
 
   return (
     <section id="about" className="py-15 bg-white">
         <div className="container mx-auto px-4 ">
             <div className="text-center mb-16 ">
                 <h2 className="text-4xl font-bold text-gray-900 mb-4">
-                    About FitPro
+                    About FitFare
                 </h2>
                 <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                    We're on a mission to make fitness accessible, enjoyable, and effective for everyone. 
-                    Our team of experts combines cutting-edge technology with proven fitness science.
+                    FitFare helps gyms to increase increase revenue, reduce commission, and reach untapped fitness enthusiasts effortlessly.
+                    Also, gives users freedom to train anywhere, anytime, no subscriptions, and no boundaries.
                 </p>
             </div>
 
@@ -81,18 +84,21 @@ const About = () => {
             <h3 className="text-3xl font-bold text-gray-900 mb-6">Our Story</h3>
             <div className="space-y-4 text-gray-600 leading-relaxed">
               <p>
-                Founded in 2020, FitPro was born from a simple observation: traditional fitness 
-                solutions weren't working for most people. Generic workout plans, one-size-fits-all 
-                approaches, and lack of personalization left millions struggling to achieve their goals.
+                We started FitFare just a few months ago after facing the same problem ourselves, 
+                expensive, rigid gym memberships that didn’t match our schedules. 
+                As fitness enthusiasts, our founders realised the industry needed a more flexible, tech-enabled solution.
+
               </p>
               <p>
-                Our founders, combining backgrounds in sports science, technology, and design, 
-                set out to create an AI-powered platform that adapts to each individual's unique 
-                needs, preferences, and lifestyle.
+                What began as a WhatsApp-based model is now growing into a structured platform, 
+                helping gyms onboard digitally and giving users seamless access to fitness spaces. 
+                We’re building FitFare into a powerful ecosystem, scalable across cities, adaptable to local needs, 
+                and easy for both users and gym partners.
+
               </p>
               <p>
-                Today, we're proud to serve over 2 million users worldwide, helping them transform 
-                their lives through personalized fitness experiences that actually work.
+                Our journey includes feature rollouts, pitching to investors, and closely working with our partner gyms to ensure mutual growth. 
+                This is just the beginning, we’re laying the foundation of a fitness revolution that works for everyone.
               </p>
             </div>
           </div>
@@ -119,7 +125,7 @@ const About = () => {
         </div>
 
         <div className="mb-24">
-          <h3 className="text-3xl font-bold text-gray-900 text-center mb-12">Our Values</h3>
+          <h3 className="text-3xl font-bold text-gray-900 text-center mb-12">Gyms Benefits</h3>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {values.map((value, index) => (
               <div key={index} className="text-center group">

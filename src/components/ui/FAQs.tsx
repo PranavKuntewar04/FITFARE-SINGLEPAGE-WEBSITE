@@ -11,12 +11,12 @@ const FAQ = () => {
       answer: "Our AI analyzes your fitness level, goals, available equipment, time constraints, and progress to create personalized workout plans. It continuously adapts based on your performance, feedback, and changing needs."
     },
     {
-      question: "Can I use FitPro without any equipment?",
-      answer: "Absolutely! FitPro offers extensive bodyweight workout programs that require no equipment. You can also specify what equipment you have available, and the AI will customize workouts accordingly."
+      question: "Can I use FitFare without any equipment?",
+      answer: "Absolutely! FitFare offers extensive bodyweight workout programs that require no equipment. You can also specify what equipment you have available, and the AI will customize workouts accordingly."
     },
     {
       question: "Is there a free trial available?",
-      answer: "Yes! All plans come with a 7-day free trial. You can explore all features and see if FitPro is right for you. No credit card required to start your trial."
+      answer: "Yes! All plans come with a 7-day free trial. You can explore all features and see if FitFare is right for you. No credit card required to start your trial."
     },
     {
       question: "How accurate is the progress tracking?",
@@ -31,12 +31,12 @@ const FAQ = () => {
       answer: "Yes! Pro and Elite plans include personalized nutrition recommendations, meal planning assistance, and macro tracking to complement your fitness routine."
     },
     {
-      question: "Is FitPro suitable for beginners?",
-      answer: "Definitely! FitPro is designed for all fitness levels. Our AI starts by assessing your current fitness level and creates beginner-friendly programs that gradually progress as you improve."
+      question: "Is FitFare suitable for beginners?",
+      answer: "Definitely! FitFare is designed for all fitness levels. Our AI starts by assessing your current fitness level and creates beginner-friendly programs that gradually progress as you improve."
     },
     {
       question: "How does the community support work?",
-      answer: "FitPro includes access to our supportive community where you can connect with other users, share progress, participate in challenges, and get motivation from like-minded individuals on similar fitness journeys."
+      answer: "FitFare includes access to our supportive community where you can connect with other users, share progress, participate in challenges, and get motivation from like-minded individuals on similar fitness journeys."
     }
   ];
 
@@ -48,7 +48,7 @@ const FAQ = () => {
             Frequently Asked Questions
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Everything you need to know about FitPro. Can't find the answer you're looking for? 
+            Everything you need to know about FitFare. Can't find the answer you're looking for? 
             Feel free to contact our support team.
           </p>
         </div>
